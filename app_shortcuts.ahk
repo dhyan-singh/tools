@@ -9,6 +9,7 @@
 ;   Right Alt + T   Terminal
 ;   Right Alt + V   Visual Studio Code
 ;   Right Alt + M   MarkText
+;   Right Alt + A   Apple Music
 ;   Right Alt + E   File Explorer
 ;   Right Alt + B   default browser
 ;   Right Alt + Y   YouTube in the default browser
@@ -50,6 +51,7 @@ if !FileExist(startupLink)
 *>!t:: OpenApp("ahk_exe WindowsTerminal.exe", "Microsoft.WindowsTerminal_8wekyb3d8bbwe!App")
 *>!v:: OpenApp("ahk_exe Code.exe",            "Microsoft.VisualStudioCode")
 *>!m:: OpenApp("ahk_exe MarkText.exe",        "com.github.marktext.marktext")
+*>!a:: OpenApp("ahk_exe AppleMusic.exe",     "AppleInc.AppleMusicWin_nzyj5cx40ttqa!App")
 *>!e:: OpenApp("ahk_class CabinetWClass",     "Microsoft.Windows.Explorer")
 *>!b:: OpenBrowser()
 *>!y:: OpenUrl("https://www.youtube.com")

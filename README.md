@@ -23,6 +23,7 @@ All scripts sit in the repo root.
 | Right Alt + T | Terminal |
 | Right Alt + V | Visual Studio Code |
 | Right Alt + M | MarkText |
+| Right Alt + A | Apple Music |
 | Right Alt + E | File Explorer |
 | Right Alt + B | Default browser |
 | Right Alt + Y | YouTube in the default browser |
